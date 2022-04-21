@@ -1,4 +1,5 @@
 # Aplicativo de escritorio veterinaria
+[![Whats-App-Image-2022-04-20-at-10-59-05-PM.jpg](https://i.postimg.cc/KY6by9Hm/Whats-App-Image-2022-04-20-at-10-59-05-PM.jpg)](https://postimg.cc/kVvzQyCH)
 
 - La Aplicación para veterinario facilita el trabajo veterinario en la clínica: nos permite contactar con los clientes de forma efectiva y permite supervisar a los veterinarios, nos dan acceso a herramientas y formación que nos pueden resultar muy útiles.
 
@@ -27,5 +28,26 @@
 
 ## Vista de despliegue
 - Está sección describe una o más configuraciones físicas sobre las cuales se realiza el deploy del software y es ejecutado, así como la infraestructura necesaria para su instalación. Para el caso del proyecto se describe el escenario general de distribución esperado para los componentes de software antes descritos, las características de los nodos presentados y la comunicación entre los mismos.
+
+## Diagrama de despliegue
+[![Captura-de-Pantalla-2022-04-20-a-la-s-8-37-51-p-m.png](https://i.postimg.cc/0j496tHX/Captura-de-Pantalla-2022-04-20-a-la-s-8-37-51-p-m.png)](https://postimg.cc/kRW0zyCW)
+
+1. **Navegador web:** representa el medio por el cual el usuario ingresa al aplicativo
+2. **Spring Framework:** es un framework para el desarrollo de aplicaciones y contenedor de inversión de control, de código abierto para la plataforma Java.
+3. **Servidor web:** es un programa informático que procesa una aplicación del lado del servidor, realizando conexiones bidireccionales o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier lenguaje o aplicación del lado del cliente.
+
+## Vista de datos
+- Está sección describe cómo está desarrollado el modelo de datos y determina la estructura lógica de la base de datos y de manera fundamental del modo en que se almacena, organiza y se manipula los datos.
+
+## Diagram de datos
+[![Captura-de-Pantalla-2022-04-20-a-la-s-10-56-24-p-m.png](https://i.postimg.cc/9QDYq1L3/Captura-de-Pantalla-2022-04-20-a-la-s-10-56-24-p-m.png)](https://postimg.cc/QFrT2gLS)
+
+#RECOMENDACIONES 
+1. ***Tratar de manejar mejores practicas a la hora de programar, como por ejemplo (manejo de clases, sintaxis, etc)***
+2. ***ellos estan manejando jdbc y seria recomendable que fueran tomado jpa ya que es mas agil***
+
+#CAMBIOS REALIZADOS
+1. ***El requisito de buscar veterinaria por nombre no se esncontraba disponible solo estaba el front, se decidio añadir la funcionalidad desde el backend***
+
 
 
