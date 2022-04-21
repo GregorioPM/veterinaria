@@ -43,7 +43,7 @@
 ## Diagram de datos
 [![Captura-de-Pantalla-2022-04-20-a-la-s-10-56-24-p-m.png](https://i.postimg.cc/9QDYq1L3/Captura-de-Pantalla-2022-04-20-a-la-s-10-56-24-p-m.png)](https://postimg.cc/QFrT2gLS)
 
-#RECOMENDACIONES 
+# RECOMENDACIONES 
 1. ***Tratar de manejar mejores practicas a la hora de programar, como por ejemplo (manejo de clases, sintaxis, etc)***
 2. ***ellos estan manejando jdbc y seria recomendable que fueran tomado jpa ya que es mas agil***
 
