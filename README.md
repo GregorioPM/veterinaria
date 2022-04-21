@@ -1,5 +1,6 @@
 # Aplicativo de escritorio veterinaria
-[![Whats-App-Image-2022-04-20-at-10-59-05-PM.jpg](https://i.postimg.cc/KY6by9Hm/Whats-App-Image-2022-04-20-at-10-59-05-PM.jpg)](https://postimg.cc/kVvzQyCH)
+
+[![Whats-App-Image-2022-04-20-at-11-01-09-PM.jpg](https://i.postimg.cc/022LhRyp/Whats-App-Image-2022-04-20-at-11-01-09-PM.jpg)](https://postimg.cc/BtkY1zD6)
 
 - La Aplicación para veterinario facilita el trabajo veterinario en la clínica: nos permite contactar con los clientes de forma efectiva y permite supervisar a los veterinarios, nos dan acceso a herramientas y formación que nos pueden resultar muy útiles.
 
@@ -46,8 +47,11 @@
 1. ***Tratar de manejar mejores practicas a la hora de programar, como por ejemplo (manejo de clases, sintaxis, etc)***
 2. ***ellos estan manejando jdbc y seria recomendable que fueran tomado jpa ya que es mas agil***
 
-#CAMBIOS REALIZADOS
+# CAMBIOS REALIZADOS
 1. ***El requisito de buscar veterinaria por nombre no se esncontraba disponible solo estaba el front, se decidio añadir la funcionalidad desde el backend***
+
+[![Whats-App-Image-2022-04-20-at-10-59-05-PM.jpg](https://i.postimg.cc/KY6by9Hm/Whats-App-Image-2022-04-20-at-10-59-05-PM.jpg)](https://postimg.cc/kVvzQyCH)
+[![Whats-App-Image-2022-04-20-at-11-04-40-PM.jpg](https://i.postimg.cc/rpWb5qfL/Whats-App-Image-2022-04-20-at-11-04-40-PM.jpg)](https://postimg.cc/Z9bVSzkf)
 
 
 
