@@ -40,7 +40,7 @@
 ## Vista de datos
 - Está sección describe cómo está desarrollado el modelo de datos y determina la estructura lógica de la base de datos y de manera fundamental del modo en que se almacena, organiza y se manipula los datos.
 
-## Diagram de datos
+## Diagrama de datos
 [![Captura-de-Pantalla-2022-04-20-a-la-s-10-56-24-p-m.png](https://i.postimg.cc/9QDYq1L3/Captura-de-Pantalla-2022-04-20-a-la-s-10-56-24-p-m.png)](https://postimg.cc/QFrT2gLS)
 
 # RECOMENDACIONES 
