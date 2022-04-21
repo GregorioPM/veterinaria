@@ -13,4 +13,5 @@
 ## Vista Logica
 
 - Se presenta una vista global de los subsistemas del proyecto y las herramientas externas que se utilizaron para lograr cumplir los cometidos definidos para cada subsistema.
+
 [![Captura-de-Pantalla-2022-04-20-a-la-s-8-21-50-p-m.png](https://i.postimg.cc/NjgH7FN6/Captura-de-Pantalla-2022-04-20-a-la-s-8-21-50-p-m.png)](https://postimg.cc/xc489fV8)
