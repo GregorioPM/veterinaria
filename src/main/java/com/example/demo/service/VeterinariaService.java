@@ -42,6 +42,7 @@ public class VeterinariaService implements BaseService<Veterinaria,String> {
         return jdbcVeterinariaRepository.findById(id);
     }
 
+    public Veterinaria findByNombre(String nombre){return  jdbcVeterinariaRepository.getNombres(nombre); }
 
 
 

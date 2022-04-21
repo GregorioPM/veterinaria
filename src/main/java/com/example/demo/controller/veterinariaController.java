@@ -27,13 +27,33 @@ public class veterinariaController {
         return "veterinaria";
     }
 
-    /*@GetMapping("/veterinaria/buscarVeterinaria/{distrito}")
-    public String getVeterinariasPorDistrito(@PathVariable String distrito,
-                                             Model model) {
+    @GetMapping({"/veterinaria/buscarVeterinaria"})
 
-        model.addAttribute("veterinarias", veterinariaService.findByDistrito(distrito));
+    public String buscar(Model model){
+        model.addAttribute("veterinaria", new Veterinaria());
+        return "buscarVeterinaria";
+
+    }
+
+    @PostMapping("/veterinaria/buscarVeterinaria/")
+    public String getVeterinariasPorDistrito(Veterinaria veterinaria,
+                                             Model model) {
+        model.addAttribute("veterinaria", new Veterinaria());
+        List<Veterinaria> veters = veterinariaService.findAll();
+        Veterinaria veteEncontrada = new Veterinaria();
+        for (Veterinaria v: veters){
+            System.out.println(veterinaria.getNombre());
+            System.out.println(v.getNombre());
+            System.out.println("veterinaria " + v.toString());
+            if(veterinaria.getNombre().equalsIgnoreCase(v.getNombre())){
+                veteEncontrada = v;
+            }
+        }
+        System.out.println(veteEncontrada.toString());
+        model.addAttribute("veterinarias", veteEncontrada);
+
         return "veterinaria";
-    }*/
+    }
 
     @PostMapping("/veterinaria/save")
     public String saveEmploye(Veterinaria veterinaria,

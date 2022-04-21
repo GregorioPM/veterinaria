@@ -1,11 +1,17 @@
 package com.example.demo.controller;
 
 
+import com.example.demo.model.Veterinaria;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class Index {
+
+    @Autowired
+
 
     @GetMapping({"/", "/index"})
 
@@ -18,12 +24,7 @@ public class Index {
         return "administrador";
     }
 
-@GetMapping({"/buscarVeterinaria"})
 
-    public String buscar(){
-        return "buscarVeterinaria";
-
-    }
 
 }
 

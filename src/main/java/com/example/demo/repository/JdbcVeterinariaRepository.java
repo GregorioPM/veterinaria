@@ -45,7 +45,22 @@ public class JdbcVeterinariaRepository implements VeterinariaRepository {
                 JdbcVeterinariaRepository::VeterinariaRowMapper);
         return veterinarias;
     }
+
+
+
     private static Veterinaria VeterinariaRowMapper(ResultSet resultSet, int i) throws SQLException {
+        String id = resultSet.getString("id");
+        String nombre = resultSet.getString("nombre");
+        String distrito = resultSet.getString("distrito");
+        String direccion=   resultSet.getString("direccion");
+        String correo = resultSet.getString("correo");
+        String numero = resultSet.getString("numero");
+
+
+        return new Veterinaria(id, nombre,distrito,direccion,correo,numero);
+    }
+
+    private static Veterinaria VeterinariaRowMapper1(ResultSet resultSet) throws SQLException {
         String id = resultSet.getString("id");
         String nombre = resultSet.getString("nombre");
         String distrito = resultSet.getString("distrito");
@@ -64,6 +79,18 @@ public class JdbcVeterinariaRepository implements VeterinariaRepository {
         Veterinaria veterinaria = jdbcTemplate.queryForObject(sql,
                 new Object[]{id},
                 JdbcVeterinariaRepository::VeterinariaRowMapper);
+        return veterinaria;
+    }
+
+
+
+
+    public Veterinaria getNombres(String nombre){
+        final String sql = "select * from veterinaria where nombre = ?";
+      Veterinaria veterinaria = jdbcTemplate.queryForObject(sql,
+                JdbcVeterinariaRepository::VeterinariaRowMapper,
+                nombre
+              );
         return veterinaria;
     }
 

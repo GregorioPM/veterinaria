@@ -18,19 +18,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h1 class="mb-5">De aca puedes buscar la veterinarias<br> que esten por tu distrito</h1>
+                    <h1 class="mb-5">De aca puedes buscar la veterinarias<br> por nombre</h1>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <!--<form action="#" method="post"
-                          th:object="${veterinarias}"
-                          th:action="@{veterinaria/buscarVeterinaria/{distrito}
-                                    (distrito=${veterinaria.distrito})}"
+                    <form method="post"
+                          th:object="${veterinaria}"
+                          th:action="@{/veterinaria/buscarVeterinaria/}"
 
-                    >-->
-                    <form>
+                    >
                         <div class="form-row">
                             <div class="col-12 col-md-9 mb-2 mb-md-0">
-                                <input type="text" class="form-control form-control-lg" id="distrito" placeholder="Ingresa tu distrito" >
+                                <input type="text" th:field="*{nombre}" class="form-control form-control-lg" id="nombre" placeholder="Ingresa el nombre de la veterinaria" >
                             </div>
                             <div class="col-12 col-md-3">
                                 <button type="submit" class="btn btn-block btn-lg boton-iniciarSesion">Buscar</button>
